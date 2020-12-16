@@ -1,0 +1,798 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- font awesome 5 free -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- Poppins font from Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/app.css">
+
+  <title>Frontendor | Component</title>
+</head>
+
+<body>
+
+    <!--Offer Alert ================================ -->
+     <!-- <div class="offer-alert">
+       <div class="offer-alert__container container">
+         <span>🔥😍 Preview All Beautiful Templates &amp; UI Blocks</span> <a href="https://frontendor.com" class="offer-alert__btn">PREVIEW ALL</a>
+       </div>
+     </div> -->
+    
+  <!--Hero ====================================== -->
+  <header class="hero container-fluid border-bottom">
+    <nav class="hero-nav container px-4 px-lg-0 mx-auto">
+      <ul class="nav w-100 list-unstyled align-items-center p-0">
+        <li class="hero-nav__item">
+          <img class="hero-nav__logo" src="assets/imgs/20200823_162435.svg">
+        </li>
+        <li id="hero-menu" class="flex-grow-1 hero__nav-list hero__nav-list--mobile-menu ft-menu">
+          <ul class="hero__menu-content nav flex-column flex-lg-row ft-menu__slider animated list-unstyled p-2 p-lg-0">
+            <li class="flex-grow-1">
+              <ul class="nav nav--lg-side list-unstyled align-items-center p-0">
+                <li class="hero-nav__item">
+                  <a href="#contact-us" class="hero-nav__link">Contact Us</a>
+                </li>
+                <li class="hero-nav__item">
+                  <a href="#faq" class="hero-nav__link"></a>
+                </li>
+                <li class="hero-nav__item">
+                  <a href="#pricing" class="hero-nav__link">Pricing</a>
+                </li>
+                <li class="hero-nav__item">
+                  <a href="#testimonials" class="hero-nav__link">Testimonials</a>
+                </li>
+                <li class="hero-nav__item">
+                  <a href="#features" class="hero-nav__link">Features</a>
+                </li>
+                <li class="hero-nav__item">
+                  <a href="#product" class="hero-nav__link">Product</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <button onclick="document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')"
+            class="ft-menu__close-btn animated">
+            <svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z"
+                clip-rule="evenodd" />
+              <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
+        </li>
+        <li class="d-lg-none flex-grow-1 d-flex flex-row-reverse hero-nav__item">
+          <button onclick="document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')"
+            class="text-center px-2">
+            <i class="fas fa-bars"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div class="hero__content container mx-auto">
+      <div class="row px-0 mx-0 align-items-center">
+        <div class="col-lg-6 px-0">
+          <h1 class="hero__title mb-3">
+            STAR TECH <span class="highlight">INTRODUCES</span> STAR TRACKER
+          </h1>
+          <p class="hero__paragraph mb-5">
+            Portable GPS trackers, easy to set up, Reliable and Secured
+          </p>
+          <div class="hero__btns-container">
+            <a class="hero__btn btn btn-primary mb-2 mb-lg-0" href="#">
+              Get Free app
+            </a>
+            <a class="hero__btn btn btn-secondary mx-lg-3" href="#">
+              Go Premium
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-5 mt-lg-0 mx-0">
+          <div class="hero__img-container">
+            <img src="assets/imgs/H14b5402a37e24e09b65fc737cae439ab4.png" class="hero__img w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================================== -->
+
+  <div id="product" class="block-5 space-between-blocks">
+    <div class="container">
+      <!-- HEADER -->
+      <div class="col-lg-8 col-xl-7 mx-auto text-center mb-5">
+        <p class="block__pre-title mb-2">WHY CHOOSING US</p>
+        <h1 class="block__title mb-3">Easy Process With <span class="highlight">Best Features</span></h1>
+        <p class="block__paragraph mb-0">
+
+          Our products are cheap, durable, easy to set up and Gets the job done with its features
+        </p>
+      </div>
+      <div class="row align-items-center flex-column-reverse flex-lg-row px-2">
+        <!-- LEFT CONTENT -->
+        <div class="col-lg-4">
+          <div class="card-2 d-flex flex-row flex-lg-row-reverse">
+            <div>
+              <span class="card-2__symbol mx-auto">
+                <i class="fas fa-heartbeat"></i>
+              </span>
+            </div>
+            <div class="px-2"></div>
+            <div>
+              <h3 class="card-2__title mb-2">Real time tracking</h3>
+              <p class="card-2__paragraph">
+                  This Gives our users the ability to track the any movement made monitoring speed and route history.
+              </p>
+            </div>
+          </div>
+          <div class="card-2 d-flex flex-row flex-lg-row-reverse">
+            <div>
+              <span class="card-2__symbol mx-auto">
+                <i class="fas fa-briefcase-medical"></i>
+              </span>
+            </div>
+            <div class="px-2"></div>
+            <div>
+              <h3 class="card-2__title mb-2">Geo fence</h3>
+              <p class="card-2__paragraph">
+                Restricting your machine from crossing undesired areas and getting an alert once the machine has breach the areas.
+              </p>
+            </div>
+          </div>
+          <div class="card-2 d-flex flex-row flex-lg-row-reverse">
+            <div>
+              <span class="card-2__symbol mx-auto">
+                <i class="fas fa-bell"></i>
+              </span>
+            </div>
+            <div class="px-2"></div>
+            <div>
+              <h3 class="card-2__title mb-2">Alarm Alert</h3>
+              <p class="card-2__paragraph">
+                Getting a notifications everytime there is an activity with your machine.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- IMAGE -->
+        <div class="col-lg-4 my-5 text-center">
+          <img src="assets/imgs/itrack-ios-android-apps.png" class="w-75">
+        </div>
+        <!-- RIGHT CONTENT -->
+        <div class="col-lg-4">
+          <div class="card-2 d-flex">
+            <div>
+              <span class="card-2__symbol mx-auto">
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+            </div>
+            <div class="px-2"></div>
+            <div>
+              <h3 class="card-2__title mb-2">Location Finder</h3>
+              <p class="card-2__paragraph">
+                Auto saving each object last location just incase the device gets shut down or loses netwok signals.S
+              </p>
+            </div>
+          </div>
+          <div class="card-2 d-flex">
+            <div>
+              <span class="card-2__symbol mx-auto">
+                <i class="fas fa-fingerprint"></i>
+              </span>
+            </div>
+            <div class="px-2"></div>
+            <div>
+              <h3 class="card-2__title mb-2">Multiple device manager</h3>
+              <p class="card-2__paragraph">
+                Our wireless Tracker offers the ability to be used in more than one object as it can be easily mounted on a metal using its strong magnet or placed in a discreet area.
+              </p>
+            </div>
+          </div>
+          <div class="card-2 d-flex">
+            <div>
+              <span class="card-2__symbol mx-auto">
+                <i class="fas fa-mobile"></i>
+              </span>
+            </div>
+            <div class="px-2"></div>
+            <div>
+              <h3 class="card-2__title mb-2">Historical track playback</h3>
+              <p class="card-2__paragraph">
+               Able to see a report of routes taken by your object daily, weekly or Monthly
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================== -->
+
+  <div id="features" class="block-11 space-between-blocks">
+    <div class="container">
+      <!-- HEADER -->
+      <div class="block__header col-lg-8 col-xl-7 mx-auto text-center">
+        <p class="block__pre-title mb-2">GET MORE DETAILS ABOUT</p>
+        <h1 class="block__title mb-3">Star Technology <span class="highlight">Servicess</span></h1>
+        <p class="block__paragraph mb-0">
+          We are determined to make every new automobile Technology accessible and fully understood to the new emerging market in our Country preparing our customers for the future that we are racing to.
+        </p>
+      </div>
+      <div class="row align-items-center justify-content-center flex-column-reverse flex-lg-row px-2">
+        <div class="col-lg-4 col-xl-5 p-lg-5">
+          <img class="w-100" src="assets/imgs/20200823_162435.png">
+        </div>
+        <div class="col-lg-8 col-xl-6">
+          <div class="row">
+            <div class="col-md-6 mb-2-1rem">
+              <div class="card-1 card-1--selected text-center">
+                <span class="card-1__symbol mx-auto mb-4">
+                  <i class="fas fa-camera-retro"></i>
+                </span>
+                <h3 class="card-1__title mb-2">Camera & sensor Technology</h3>
+                <p class="card-1__paragraph">
+                  Lorem Ipsum is simply dummy text of
+                  the printing and typesetting industry.
+                  Lorem Ipsum has been the industry’s
+                  standard.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2-1rem">
+              <div class="card-1 text-center">
+                <span class="card-1__symbol mx-auto mb-4">
+                  <i class="fas fa-leaf"></i>
+                </span>
+                <h3 class="card-1__title mb-2">Eco & Hybrid Engines</h3>
+                <p class="card-1__paragraph">
+                 For new engines models Technologies our expert will help you understand how your engine works and how to operate it.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2-1rem">
+              <div class="card-1 text-center">
+                <span class="card-1__symbol mx-auto mb-4">
+                  <i class="fas fa-cog"></i>
+                </span>
+                <h3 class="card-1__title mb-2">Inteligent machine diagnosis</h3>
+                <p class="card-1__paragraph">
+                  Uisng computerized software will detect any problem in your auto and offer a solution accordingly.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2-1rem">
+              <div class="card-1 text-center">
+                <span class="card-1__symbol mx-auto mb-4">
+                  <i class="fas fa-database"></i>
+                </span>
+                <h3 class="card-1__title mb-2">Free consultancy</h3>
+                <p class="card-1__paragraph">
+                 Incase of any problem with your automobile mechanical, software or Buying a new auto experts at Star lab will help guide you through that process
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================== -->
+
+  <div id="testimonials" class="block-20 space-between-blocks">
+    <div class="container">
+      <div class="block__header col-lg-8 col-xl-7 mx-auto text-center px-0">
+        <h1 class="block__title mb-3">What our clients Says About Us</h1>
+        <p class="block__paragraph">
+          Star Tech products inspires the customer to imagine what the future will look like and our services will make that future a reality.
+        </p>
+      </div>
+      <div class="row px-2 pt-4">
+        <div class="col-lg-4">
+          <div class="testimonial-card-1 mb-5">
+            <p class="testimonial-card-1__paragraph mb-3">
+              I love your S15 model tracker the fact that is waterproof is even better as am a big fan of offroad.
+            </p>
+            <div class="block-20__person">
+              <div class="mb-2">
+                <img class="block-20__person-avatar" src="assets/imgs/IMG-20200625-WA0009.png">
+              </div>
+              <div class="flex-grow-1 d-flex flex-column">
+                <span class="block-20__person-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span class="block-20__person-name my-1">Marckdonald</span>
+                <span class="block-20__person-info">pinetech industry</span>
+              </div>
+            </div>
+            <span class="testimonial-card-1__quote-symbol">
+              <i class="fas fa-quote-left"></i>
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-card-1 mb-5">
+            <p class="testimonial-card-1__paragraph mb-3">
+              Nime furahi sana sasa naweza kuangalia magari yangu ya mauzo yao wapi na wa muda gani, imenisaidia sana kupangilia budget ya mafuta mungu awabariki sana.
+            </p>
+            <div class="block-20__person">
+              <div class="mb-2">
+                <img class="block-20__person-avatar" src="assets/imgs/132A0943 copy.png">
+              </div>
+              <div class="flex-grow-1 d-flex flex-column">
+                <span class="block-20__person-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span class="block-20__person-name my-1">Dr Elizabeth Masisi</span>
+                <span class="block-20__person-info">Managing director at Grace industries</span>
+              </div>
+            </div>
+            <span class="testimonial-card-1__quote-symbol">
+              <i class="fas fa-quote-left"></i>
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-card-1 mb-5">
+            <p class="testimonial-card-1__paragraph mb-3">
+              Your mechanics are panctual and very proffesional and your platform is super easy to use.
+            </p>
+            <div class="block-20__person">
+              <div class="mb-2">
+                <img class="block-20__person-avatar" src="assets/imgs/447816430_170120.png">
+              </div>
+              <div class="flex-grow-1 d-flex flex-column">
+                <span class="block-20__person-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </span>
+                <span class="block-20__person-name my-1">Abel shoo</span>
+                <span class="block-20__person-info">CEO of Gengeni delivery</span>
+              </div>
+            </div>
+            <span class="testimonial-card-1__quote-symbol">
+              <i class="fas fa-quote-left"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================== -->
+
+  <div id="pricing" class="block-17 px-4 space-between-blocks">
+    <div class="container">
+      <div class="block-17__header col-lg-8 col-xl-7 mx-auto text-center px-0">
+        <h1 class="block__title mb-3">PRICING</h1>
+        <p class="block__paragraph">
+          Our products are offered with two payment plan.
+        </p>
+      </div>
+      <div class="block-17__card row flex-column-reverse flex-lg-row justify-content-center">
+        <div class="testimonial-card-3 text-center col-lg-6 px-0 d-flex align-items-center justify-content-center">
+          <div class="px-4 px-lg-5">
+            <img class="person__avatar" src="assets/imgs/447816430_170120.png">
+            <p class="testimonial-card-3__paragraph my-4">
+              After one year of servicew with star tracker! things got even cheaper
+            </p>
+            <div class="flex-grow-1 d-flex flex-column mb-3">
+              <span class="person__name">Abel shoo</span>
+              <span class="person__info my-1">CEO of Gengeni delivery</span>
+              <span class="person__rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+          <span class="testimonial-card-3__quote-symbol">
+            <i class="fas fa-quote-left"></i>
+          </span>
+        </div>
+        <div class="cta-card col-lg-5 px-0">
+          <div class="plan-card text-center">
+            <h6 class="plan-card__name mb-0">Standard Package</h6>
+            <p class="discount mt-3 mb-0 d-flex align-items-center justify-content-center">
+              <span class="discount__old-price mx-2">$100</span>
+              <span class="discount__percentage mx-2">50% off</span>
+            </p>
+            <p class="plan-card__price my-2">$50</p>
+            <span class="plan-card__duration">12 months plan</span>
+            <ul class="plan-features list-unstyled mt-5 mb-0">
+              <li class="plan-features__li">
+                <span class="plan-features__li-icon mx-1">
+                  <svg class="bi bi-check2-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd"
+                      d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
+                  </svg>
+                </span>
+                <span class="mx-3">Device installation</span>
+              </li>
+              <li class="plan-features__li">
+                <span class="plan-features__li-icon mx-1">
+                  <svg class="bi bi-check2-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd"
+                      d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
+                  </svg>
+                </span>
+                <span class="mx-3">+ acess to all features</span>
+              </li>
+              <li class="plan-features__li">
+                <span class="plan-features__li-icon mx-1">
+                  <svg class="bi bi-check2-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd"
+                      d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
+                  </svg>
+                </span>
+                <span class="mx-3">Lifetime Mobile App</span>
+              </li>
+              <li class="mt-5">
+                <a href="#" class="d-block btn btn-primary px-5 mx-auto">
+                  Buy Now
+                </a>
+                <small class="d-block mt-2 text-center"> </small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="pricing" class="block-17 px-4 space-between-blocks">
+    <div class="container">
+      <div class="block-17__header col-lg-8 col-xl-7 mx-auto text-center px-0">
+        <h1 class="block__title mb-3">SECOND PLAN</h1>
+        <p class="block__paragraph"></p>
+        </p>
+      </div>
+      <div class="block-17__card row flex-column-reverse flex-lg-row justify-content-center">
+        <div class="testimonial-card-3 text-center col-lg-6 px-0 d-flex align-items-center justify-content-center">
+          <div class="px-4 px-lg-5">
+            <img class="person__avatar" src="assets/imgs/132A0943 copy.png">
+            <p class="testimonial-card-3__paragraph my-4">
+              Nawa shauri wafanya biashara wadogo wadogo watumie hii teknolojia ina saidia sana kwenye ku monitor mizunguko hasa kama una wafanya kazi wengi
+            </p>
+            <div class="flex-grow-1 d-flex flex-column mb-3">
+              <span class="person__name">Dr Elizabeth Masisi</span>
+              <span class="person__info my-1">Managing director at Grace industries</span>
+              <span class="person__rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+          <span class="testimonial-card-3__quote-symbol">
+            <i class="fas fa-quote-left"></i>
+          </span>
+        </div>
+        <div class="cta-card col-lg-5 px-0">
+          <div class="plan-card text-center">
+            <h6 class="plan-card__name mb-0"> Eagle eye package </h6>
+            <p class="discount mt-3 mb-0 d-flex align-items-center justify-content-center">
+              <span class="discount__old-price mx-2">$150</span>
+              <span class="discount__percentage mx-2">50% off</span>
+            </p>
+            <p class="plan-card__price my-2">$75</p>
+            <span class="plan-card__duration">12 months plan</span>
+            <ul class="plan-features list-unstyled mt-5 mb-0">
+              <li class="plan-features__li">
+                <span class="plan-features__li-icon mx-1">
+                  <svg class="bi bi-check2-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd"
+                      d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
+                  </svg>
+                </span>
+                <span class="mx-3">Wireless Device set up</span>
+              </li>
+              <li class="plan-features__li">
+                <span class="plan-features__li-icon mx-1">
+                  <svg class="bi bi-check2-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd"
+                      d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
+                  </svg>
+                </span>
+                <span class="mx-3">+ Acess to all features</span>
+              </li>
+              <li class="plan-features__li">
+                <span class="plan-features__li-icon mx-1">
+                  <svg class="bi bi-check2-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd"
+                      d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
+                  </svg>
+                </span>
+                <span class="mx-3">Lifetime Mobile App</span>
+              </li>
+              <li class="mt-5">
+                <a href="#" class="d-block btn btn-primary px-5 mx-auto">
+                  Buy Now
+                </a>
+                <small class="d-block mt-2 text-center"> </small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="pricing" class="block-17 px-4 space-between-blocks">
+    <div class="container">
+      <div class="block-17__header col-lg-8 col-xl-7 mx-auto text-center px-0">
+        <h1 class="block__title mb-3">THIRD PLAN</h1>
+        <p class="block__paragraph"></p>
+        </p>
+      </div>
+      <div class="block-17__card row flex-column-reverse flex-lg-row justify-content-center">
+        <div class="testimonial-card-3 text-center col-lg-6 px-0 d-flex align-items-center justify-content-center">
+          <div class="px-4 px-lg-5">
+            <img class="person__avatar" src="assets/imgs/IMG-20200625-WA0009.png">
+            <p class="testimonial-card-3__paragraph my-4">
+              Nawa shauri wafanya biashara wadogo wadogo watumie hii teknolojia ina saidia sana kwenye ku monitor mizunguko hasa kama una wafanya kazi wengi
+            </p>
+            <div class="flex-grow-1 d-flex flex-column mb-3">
+              <span class="person__name">Marcdonald Nuru</span>
+              <span class="person__info my-1">Managing director at Pinetechnologies</span>
+              <span class="person__rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+          <span class="testimonial-card-3__quote-symbol">
+            <i class="fas fa-quote-left"></i>
+          </span>
+        </div>
+        <div class="cta-card col-lg-5 px-0">
+          <div class="plan-card text-center">
+            <h6 class="plan-card__name mb-0"> Enterprise Package </h6>
+            <p class="discount mt-3 mb-0 d-flex align-items-center justify-content-center">
+              <span class="discount__old-price mx-2">$200</span>
+              <span class="discount__percentage mx-2">45% off</span>
+            </p>
+            <p class="plan-card__price my-2">$130</p>
+            <span class="plan-card__duration">12 months plan</span>
+            <ul class="plan-features list-unstyled mt-5 mb-0">
+              <li class="plan-features__li">
+                <span class="plan-features__li-icon mx-1">
+                  <svg class="bi bi-check2-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd"
+                      d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
+                  </svg>
+                </span>
+                <span class="mx-3">Remote audio listening</span>
+              </li>
+              <li class="plan-features__li">
+                <span class="plan-features__li-icon mx-1">
+                  <svg class="bi bi-check2-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd"
+                      d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
+                  </svg>
+                </span>
+                <span class="mx-3">Remote engine start and stop</span>
+              </li>
+              <li class="plan-features__li">
+                <span class="plan-features__li-icon mx-1">
+                  <svg class="bi bi-check2-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd"
+                      d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
+                  </svg>
+                </span>
+                <span class="mx-3">Real time tracking</span>
+              </li>
+              <li class="mt-5">
+                <a href="#" class="d-block btn btn-primary px-5 mx-auto">
+                  Buy Now
+                </a>
+                <small class="d-block mt-2 text-center"> </small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  
+
+  <!-- =================================== -->
+
+ 
+ -->
+  <!-- =================================== -->
+
+  <div id="contact-us" class="block-28 space-between-blocks border-top border-bottom">
+    <div class="container">
+      <div class="row h-100">
+        <div class="col-lg-6 h-100 block-28__content-side">
+          <div class="contact-info">
+            <h5 class="contact-info__title mb-3">Get in Touch</h5>
+            <p class="contact-info__paragraph mb-5">
+              If you would lie to use our services please contact us using the link below
+            </p>
+            <div class="mb-5">
+              <h6 class="contact-info__title-2 mb-3">COLLABORATE</h6>
+              <p class="d-flex flex-column">
+                <span class="contact-info__item mb-2">Starteck57@gmail.com</span>
+                <span class="contact-info__item">Tel: (255) 692-437 054</span>
+              </p>
+            </div>
+            <div class="mb-5">
+              <h6 class="contact-info__title-2 mb-3">COLLABORATE</h6>
+              <p class="d-flex flex-column">
+                <span class="contact-info__item mb-2">
+                  <i class="fas fa-phone"></i><span class="mx-2">Starteck57@gmail.com</span>
+                </span>
+                <span class="contact-info__item">
+                  <i class="fas fa-envelope"></i><span class="mx-2">Tel: (255) 755-385 538</span>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 h-100 block-28__form-side">
+          <form onsubmit="submitContactForm(event)" class="contact-form text-center">
+            <div class="contact-form__header mb-5">
+              <h6 class="contact-form__title mb-3">Contact Us</h6>
+              <p class="contact-form__paragraph mb-0 mx-auto">
+                Star Techology The future is present.
+              </p>
+            </div>
+            <input type="text" class="contact-form__input" placeholder="Full Name">
+            <input type="email" class="contact-form__input" placeholder="Email">
+            <textarea class="contact-form__input" placeholder="Message"></textarea>
+            <button class="btn btn-primary w-100">SEND MESSAGE</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================== -->
+
+  <div class="block-32 space-between-blocks">
+    <div class="container">
+      <!-- HEADER -->
+      <div class="col-lg-8 col-xl-7 mx-auto text-center mb-5">
+        <h1 class="block__title mb-3">Visit us and explore with our experts</h1>
+        <p class="block__paragraph mb-0">
+          After talking to our experts we are confident that you  will be confident with the choice you make involving Automobiles
+        </p>
+      </div>
+      <div class="text-center">
+        <a href="https://www.instagram.com/p/CEhbQvTplMd/?igshid=l4jf9uzdgko9" class="btn btn-primary">Visit us now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================== -->
+
+  <div class="block-44 py-5">
+    <div class="container">
+      <div class="row px-0 mx-0 justify-content-center align-items-center">
+        <div class="block-44__logo-container">
+          <img class="block-44__logo" src="assets/imgs/logo.svg">
+        </div>
+        <ul class="block-44__list list-unstyled justify-content-center mb-0">
+          <li class="block-44__li-1">
+            <a href="#" class="block-44__link">Affiliate</a>
+          </li>
+          <li class="block-44__li-1">
+            <a href="#" class="block-44__link">Entreprise</a>
+          </li>
+          <li class="block-44__li-1">
+            <a href="#" class="block-44__link">Products</a>
+          </li>
+          <li class="block-44__li-1">
+            <a href="#" class="block-44__link">Account</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr class="block-44__divider">
+    <div class="container">
+      <div class="row flex-column flex-md-row px-2 justify-content-center">
+        <div class="flex-grow-1">
+          <ul class="block-44__extra-links d-flex list-unstyled p-0">
+            <li class="mx-2">
+              <a href="#" class="block-44__link m-0">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="mx-2">
+              <a href="#" class="block-44__link m-0">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="mx-2">
+              <a href="#" class="block-44__link m-0">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="block-41__copyrights">&copy; 2020 Star Tech. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================== -->
+
+  <script src="assets/app.js"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
